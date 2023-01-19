@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n    box-sizing: border-box;\\n}\\n\\nbody {\\n    background-color: rgb(53, 19, 19);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n    box-sizing: border-box;\\n    font-family: 'Sofia Sans', sans-serif;\\n}\\n\\nhtml, body {\\n    height: 100%;\\n}\\n\\nbody {\\n    background-color: rgb(53, 19, 19);\\n    color:blanchedalmond;\\n    display: flex;\\n    flex-direction: column;\\n}\\n\\nh1 {\\n    font-size: 6rem;\\n    color:rgb(255, 240, 218);\\n    text-shadow: -5px 5px 0 #000;\\n    margin: 1rem;\\n    position: absolute;\\n}\\n\\nh2 {\\n    font-size: 1.5rem;\\n    color:rgb(255, 240, 218);\\n    text-shadow: -2px 2px 0 #000;\\n    margin: 1rem;\\n    position: absolute;\\n    bottom: 6rem;\\n}\\n\\n#content {\\n    flex: 1 0 auto;\\n    border-top: 5px solid rgb(255, 210, 143);\\n    border-bottom: 5px solid rgb(255, 210, 143);\\n    margin-top: 1rem;\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n}\\n#content img {\\n    width: 100%;\\n    height: 100%;\\n    \\n}\\n.nav {\\n    display: flex;\\n    justify-content: space-around;\\n    font-size: 2rem;\\n    margin-top: 1rem;\\n    height: 3rem;\\n}\\n\\nfooter {\\n    display: flex;\\n    justify-content: space-between;\\n    margin-bottom: 1rem;\\n}\\n.icons {\\n    display:flex;\\n    gap: 1rem;\\n    margin-top: 1rem;\\n}\\n\\n.facebook, .instagram{\\n    width: 40px;\\n    cursor: pointer;\\n}\\n\\na {\\n    text-decoration: inherit;\\n    color: inherit;\\n    font-size: 2rem;\\n}\\n\\n.tab {\\n    cursor: pointer;\\n}\\n\\na:hover, .tab:hover{\\n    border-bottom: 2px solid rgb(255, 210, 143);\\n    color: rgb(255, 210, 143);\\n    transform: translateY(-5px);\\n}\\n\\n.not-allowed {\\n    pointer-events: none;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,53 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/home-tab.js":
+/*!*************************!*\
+  !*** ./src/home-tab.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHome)\n/* harmony export */ });\n/* harmony import */ var _assets_coffee_beans_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/coffee-beans.jpg */ \"./src/assets/coffee-beans.jpg\");\n\nconst content = document.getElementById('content');\nconst homeTab = document.getElementById('home');\n\n\n\nfunction loadHome() {\n    homeTab.addEventListener('click', () => {\n        const homeBg = new Image();\n        const h1 = document.createElement('h1');\n        const h2 = document.createElement('h2');\n        h1.textContent = \"JavaScript Coffee\";\n        h2.textContent = \"Your home for JS coffee puns!\"\n        homeBg.src = _assets_coffee_beans_jpg__WEBPACK_IMPORTED_MODULE_0__;\n        content.append(homeBg);\n        content.append(h1);\n        content.append(h2);\n        homeTab.classList.add(\"not-allowed\");\n    });\n};\n\n//# sourceURL=webpack://restaurant/./src/home-tab.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n// import each tab module here\n\nconsole.log(1235);\n\n// enter the code for tab switching here\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/facebook.png */ \"./src/assets/facebook.png\");\n/* harmony import */ var _assets_instagram_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/instagram.png */ \"./src/assets/instagram.png\");\n/* harmony import */ var _home_tab_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home-tab.js */ \"./src/home-tab.js\");\n\n\n\n// import each tab module here\n\n\nconst fbIcon = document.querySelector('.facebook');\nfbIcon.src = _assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__;\nconst instaIcon = document.querySelector('.instagram');\ninstaIcon.src = _assets_instagram_png__WEBPACK_IMPORTED_MODULE_2__;\n\n// enter the code for tab switching here\n\n(0,_home_tab_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/coffee-beans.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/coffee-beans.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"coffee-beans.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/assets/coffee-beans.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/facebook.png":
+/*!*********************************!*\
+  !*** ./src/assets/facebook.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"facebook.png\";\n\n//# sourceURL=webpack://restaurant/./src/assets/facebook.png?");
+
+/***/ }),
+
+/***/ "./src/assets/instagram.png":
+/*!**********************************!*\
+  !*** ./src/assets/instagram.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"instagram.png\";\n\n//# sourceURL=webpack://restaurant/./src/assets/instagram.png?");
 
 /***/ })
 
@@ -171,6 +211,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +237,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
