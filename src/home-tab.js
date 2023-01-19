@@ -1,8 +1,9 @@
 import coffeeBeans from './assets/coffee-beans.jpg';
-const content = document.getElementById('content');
-const homeTab = document.getElementById('home');
 const homeBg = new Image();
 homeBg.src = coffeeBeans;
+const content = document.getElementById('content');
+const homeTab = document.getElementById('home');
+
 
 export default function loadHome() {
     homeTab.addEventListener('click', () => {
