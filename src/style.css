@@ -120,7 +120,7 @@ a:hover, .tab:hover{
     padding-bottom: 2rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .menu-text {
         font-size: 1rem;
         margin: .5rem;
